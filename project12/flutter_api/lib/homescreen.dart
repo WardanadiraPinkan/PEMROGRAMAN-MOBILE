@@ -2102,19 +2102,19 @@ class _HomeScreenState extends State<HomeScreen> {
                           buildWeatherCard(
                             'Pressure',
                             '${press.toInt()} hPa',
-                            'images/barometer.jpeg',
+                            'images/barometer.png',
                           ),
                           // Kartu Kelembapan
                           buildWeatherCard(
                             'Humidity',
                             '${hum.toInt()} %',
-                            'images/humidity.jpeg',
+                            'images/humidity.png',
                           ),
                           // Kartu Tutupan Awan
                           buildWeatherCard(
                             'Cloud Cover',
                             '${cover.toInt()} %',
-                            'images/cloud cover.jpeg',
+                            'images/cloudcover.jpeg',
                           ),
                         ],
                       ),
